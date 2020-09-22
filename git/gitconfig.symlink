@@ -3,3 +3,5 @@
 	name = Nader Hajlaoui
 [credential]
 	helper = osxkeychain	
+[core]
+    excludesfile = ~/.gitignore	
