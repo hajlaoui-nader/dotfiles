@@ -1,0 +1,5 @@
+[user]
+	email = hajlaoui.nader@gmail.com
+	name = Nader Hajlaoui
+[credential]
+	helper = osxkeychain	
