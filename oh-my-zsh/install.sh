@@ -13,3 +13,8 @@ if [ ! -d  x ]; then
 	sh -c "$(curl -fsSL https://raw.githubusercontent.com/psprint/zsh-navigation-tools/master/doc/install.sh)"
 else echo 'error downloading zsh znt navigation tools'
 fi
+
+ZSH_THEME_DIR=${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/themes/powerlevel10k
+if [ ! -d "$ZSH_THEME_DIR" ]; then
+  git clone --depth=1 https://github.com/romkatv/powerlevel10k.git "$ZSH_THEME_DIR"
+fi
