@@ -22,5 +22,5 @@ Then, run these steps:
 $ git clone https://github.com/hajlaoui-nader/dotfiles.git ~/.dotfiles
 $ cd ~/.dotfiles
 $ ./script/bootstrap
-$ zsh # or just close and open your terminal again.
+$ zshreload # or just close and open your terminal again.
 ```
