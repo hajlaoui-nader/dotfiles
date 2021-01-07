@@ -5,3 +5,4 @@
 	helper = osxkeychain	
 [core]
     excludesfile = ~/.gitignore	
+	autocrlf = input
