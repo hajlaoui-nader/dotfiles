@@ -12,7 +12,9 @@ First, make sure you have all those things installed:
 - `tar`: to extract downloaded stuff
 - `zsh`: to actually run the dotfiles
 - `sudo`: some configs may need that
-- `iterm`
+- `iterm`| `virtualenv` | `virtualenvwrapper`
+ 
+
 
 ### Install
 
