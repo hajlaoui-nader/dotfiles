@@ -23,3 +23,6 @@ alias dex="docker exec -i -t"
 # Stop and Remove all containers
 alias stopAndDelete='docker stop $(docker ps -a -q) && docker rm $(docker ps -a -q)'
 
+# Delete all images
+alias deleteAllImages='docker rmi -f  $(docker images -a -q)' 
+
