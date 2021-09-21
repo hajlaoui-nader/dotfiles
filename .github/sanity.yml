@@ -1,0 +1,13 @@
+name: Sanity Test CI
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: macOS-latest
+
+    steps:
+    - uses: 
+    - name: Execute full install
+      run: ./script/bootstrap
