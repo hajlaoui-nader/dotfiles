@@ -8,6 +8,6 @@ jobs:
     runs-on: macOS-latest
 
     steps:
-    - uses: 
+    - uses: actions/checkout@v1
     - name: Execute full install
       run: ./script/bootstrap
