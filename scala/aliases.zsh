@@ -16,4 +16,5 @@ mkdir modules/tests/src              &
 mkdir modules/tests/src/test         &
 mkdir modules/tests/src/test/scala   &
 mkdir modules/tests/src/main         &
-mkdir modules/tests/src/main/scala'
+mkdir modules/tests/src/main/scala   &
+touch modules/core/src/main/scala/Main.scala'
