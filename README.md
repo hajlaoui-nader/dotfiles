@@ -29,3 +29,5 @@ $ cd ~/.dotfiles
 $ ./script/bootstrap
 $ zshreload # or just close and open your terminal again.
 ```
+
+[![Sanity Test CI](https://github.com/hajlaoui-nader/dotfiles/actions/workflows/sanity.yml/badge.svg?branch=main)](https://github.com/hajlaoui-nader/dotfiles/actions/workflows/sanity.yml)
