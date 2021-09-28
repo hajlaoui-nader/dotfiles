@@ -1,4 +1,5 @@
 alias gs='git status'
+alias gd='git diff'
 alias gfp='git fetch --prune'
 alias gpr='git pull --rebase'
 alias gco='git checkout'
