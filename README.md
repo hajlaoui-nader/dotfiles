@@ -16,7 +16,7 @@ First, make sure you have all those things installed:
 - `pyenv`: `brew install pyenv` | `pip3 install virtualenv` | `pip3 install virtualenvwrapper`
 - `bitwarden` 
 - `flycut`
- 
+- `sdkman` 
 
 
 ### Install
