@@ -1,1 +1,1 @@
-plugins=(z)
+plugins=(z, git)
