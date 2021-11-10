@@ -87,6 +87,24 @@ tnoremap <Esc> <C-\><C-n>
 " Fuzzy finder shortcut
 nnoremap <C-p> :FZF<CR>
 
+nnoremap <C-g> :Rg<cr>
+let g:fzf_layout = { 'down': '~40%' }
+
+" ripgrep
+if executable('rg')
+let $FZF_DEFAULT_COMMAND = 'rg --files --hidden --follow --glob "!.git/*"'
+set grepprg=rg\ --vimgrep
+" Get text in files with Rg
+command! -bang -nargs=* Rg
+\ call fzf#vim#grep(
+\   'rg --column --line-number --no-heading --color=always --smart-case '.shellescape(<q-args>), 1,
+\   fzf#vim#with_preview(), <bang>0)
+" Rg
+nnoremap <silent> <Leader>fa :Find<CR>
+" Rg current worda
+nnoremap <Leader>fw :Rg <C-R><C-W><space>
+endif
+
 " metals scala
 autocmd FileType json syntax match Comment +\/\/.\+$+
 
