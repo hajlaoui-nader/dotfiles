@@ -11,4 +11,4 @@ jobs:
     - uses: actions/checkout@v1
     - name: Execute full install
       # run: echo "hello"
-      run: ./script/bootstrap
+      run: rm /Users/runner/.gitconfig && ./script/bootstrap
