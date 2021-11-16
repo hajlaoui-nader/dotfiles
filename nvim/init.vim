@@ -177,3 +177,8 @@ autocmd CursorHold * silent call CocActionAsync('highlight')
 "nmap <silent> F <Plug>(coc-action-format) "does not work
 nnoremap <silent> F :call CocAction('format')<CR>
 
+" split resize
+nmap <M-h> :vertical resize +1<CR>
+nmap <M-l> :vertical resize -1<CR>
+nmap <M-k> :resize +1<CR>
+nmap <M-j> :resize -1<CR>
