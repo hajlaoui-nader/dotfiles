@@ -57,3 +57,9 @@ nnoremap <silent> <space>tc :<C-u>CocCommand metals.tvp metalsCompile<CR>
 nnoremap <silent> <space>tb :<C-u>CocCommand metals.tvp metalsBuild<CR>
 " Reveal current current class (trait or object) in Tree View 'metalsPackages'
 nnoremap <silent> <space>tf :<C-u>CocCommand metals.revealInTreeView metalsPackages<CR>
+
+" split resize
+nmap <M-h> :vertical resize +1<CR>
+nmap <M-l> :vertical resize -1<CR>
+nmap <M-k> :resize +1<CR>
+nmap <M-j> :resize -1<CR>
