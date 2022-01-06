@@ -19,8 +19,10 @@ Plug 'github/copilot.vim'
 Plug 'ryanoasis/vim-devicons'
 " multiple cursors
 Plug 'terryma/vim-multiple-cursors'
-" themes
+" colorschemes
 Plug 'rafi/awesome-vim-colorschemes'
+" start screen
+Plug 'mhinz/vim-startify'
 call plug#end()
 
 set shell=/usr/bin/zsh
@@ -48,6 +50,7 @@ set encoding=UTF-8
 set smartcase
 set autoindent
 set shiftwidth=4
+set relativenumber
 
 " Better display for messages
 set cmdheight=2
